@@ -1,0 +1,183 @@
+/* Animacja */
+@keyframes animation-one {
+	0% {opacity: 0;}
+	50% {opacity: 1;}
+	100% {opacity:0;}
+}
+.animation1 {
+	opacity: 0;
+	animation-name: animation-one;
+    animation-duration: 0.9s;
+    animation-delay: 5s;
+    animation-iteration-count: infinite;
+}
+
+/* Koniec Animacji */
+@keyframes p {
+	0% {opacity: 0;}
+	100% {opacity: 1;}
+}
+.p {
+	opacity: 0;
+	animation-fill-mode: forwards;
+	animation-name: p;
+    animation-delay: 1s;
+    animation-duration: 0.3s;
+    animation-iteration-count: 1;
+}
+
+@keyframes i1 {
+	0% {opacity: 0;}
+	100% {opacity: 1;}
+}
+.i1 {
+	opacity: 0;
+	animation-fill-mode: forwards;
+	animation-name: i1;
+	animation-duration: 0.3s;
+    animation-delay: 1.3s;
+    animation-iteration-count: 1;
+}
+
+@keyframes o1 {
+	0% {opacity: 0;}
+	100% {opacity: 1;}
+}
+.o1 {
+	opacity: 0;
+	animation-fill-mode: forwards;
+	animation-name: o1;
+	animation-duration: 0.3s;
+    animation-delay: 1.6s;
+    animation-iteration-count: 1;
+}
+
+@keyframes t {
+	0% {opacity: 0;}
+	100% {opacity: 1;}
+}
+.t {
+	opacity: 0;
+	animation-fill-mode: forwards;
+	animation-name: t;
+	animation-duration: 0.3s;
+    animation-delay: 1.9s;
+    animation-iteration-count: 1;
+}
+
+@keyframes r1 {
+	0% {opacity: 0;}
+	100% {opacity: 1;}
+}
+.r1 {
+	opacity: 0;
+	animation-fill-mode: forwards;
+	animation-name: r1;
+	animation-duration: 0.3s;
+    animation-delay: 2.2s;
+    animation-iteration-count: 1;
+}
+
+@keyframes g {
+	0% {opacity: 0;}
+	100% {opacity: 1;}
+}
+.g {
+	opacity: 0;
+	animation-fill-mode: forwards;
+	animation-name: g;
+	animation-duration: 0.3s;
+    animation-delay: 2.6s;
+    animation-iteration-count: 1;
+}
+
+@keyframes o2 {
+	0% {opacity: 0;}
+	100% {opacity: 1;}
+}
+.o2 {
+	opacity: 0;
+	animation-fill-mode: forwards;
+	animation-name: o2;
+	animation-duration: 0.3s;
+    animation-delay: 2.9s;
+    animation-iteration-count: 1;
+}
+
+@keyframes r2 {
+	0% {opacity: 0;}
+	100% {opacity: 1;}
+}
+.r2 {
+	opacity: 0;
+	animation-fill-mode: forwards;
+	animation-name: r2;
+	animation-duration: 0.3s;
+    animation-delay: 3.2s;
+    animation-iteration-count: 1;
+}
+
+@keyframes z {
+	0% {opacity: 0;}
+	100% {opacity: 1;}
+}
+.z {
+	opacity: 0;
+	animation-fill-mode: forwards;
+	animation-name: z;
+	animation-duration: 0.3s;
+    animation-delay: 3.5s;
+    animation-iteration-count: 1;
+}
+
+@keyframes y {
+	0% {opacity: 0;}
+	100% {opacity: 1;}
+}
+.y {
+	opacity: 0;
+	animation-fill-mode: forwards;
+	animation-name: y;
+	animation-duration: 0.3s;
+    animation-delay: 3.8s;
+    animation-iteration-count: 1;
+}
+
+@keyframes c {
+	0% {opacity: 0;}
+	100% {opacity: 1;}
+}
+.c {
+	opacity: 0;
+	animation-fill-mode: forwards;
+	animation-name: c;
+	animation-duration: 0.3s;
+    animation-delay: 4.2s;
+    animation-iteration-count: 1;
+}
+
+@keyframes k {
+	0% {opacity: 0;}
+	100% {opacity: 1;}
+}
+.k {
+	opacity: 0;
+	animation-fill-mode: forwards;
+	animation-name: k;
+	animation-duration: 0.3s;
+    animation-delay: 4.5s;
+    animation-iteration-count: 1;
+}
+
+@keyframes i2 {
+	0% {opacity: 0;}
+	100% {opacity: 1;}
+}
+.i2 {
+	opacity: 0;
+	animation-fill-mode: forwards;
+	animation-name: i2;
+	animation-duration: 0.3s;
+    animation-delay: 4.8s;
+    animation-iteration-count: 1;
+}

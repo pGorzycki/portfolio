@@ -1,0 +1,20 @@
+.skills-container .row .col {
+	text-align: center;
+}
+.skills-container {
+	height: auto;
+}
+.skills-header {
+	text-align: center;
+	padding: 30px 0;
+}
+.skills {
+	background: $black;
+	color: white;
+	height: 100vh;
+	overflow: hidden;
+	padding: 50px;
+}
+.skills i {
+	font-size: 6em;
+}

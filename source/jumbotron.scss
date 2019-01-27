@@ -1,0 +1,53 @@
+.jumbotron {
+	text-align: center;
+	background: url('images/kodowanie.jpg') center;
+	background-size: cover;
+	height: 100vh;
+	margin-bottom: 0;
+}
+.jumbotron-content {
+	width: 100vw;
+	opacity: 1.0;
+}
+
+.jumbotron-header {
+	padding-top: 25vh;
+	color: white;
+	font-size: 5em;
+	text-shadow: 1px 1px;
+}
+.jumbotron-header2 {
+	padding-top: 10px;
+	color: white;
+	font-size: 5em;
+	text-shadow: 1px 1px;
+}
+.line1 {
+	width: 50%;
+	margin-left: 25%;
+	margin-right: 25%;
+	background: $blue;
+}
+.jumbotron-button {
+	margin-top: 5%;
+	font-size: 2.2em;
+	color: $blue;
+	text-shadow: 1px 1px;
+	border-radius: 5px;
+	border-color: $blue;
+	background: rgba(0, 0, 0, 0.2);
+	padding: 15px;
+	width: 350px;
+	transition: 1s;
+	transition-delay: 0.1s;
+}
+.jumbotron-button:focus {
+	outline: 0;
+}
+.jumbotron-button:hover {
+	cursor: pointer;
+	background: $blue;
+	color: white;
+	//transform: scale(1.1);
+	transition: 1s;
+}

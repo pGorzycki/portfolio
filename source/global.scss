@@ -1,0 +1,27 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	font-family: sans-serif;
+}
+.row:before, .row:after {
+	content: "";
+	display: table;
+	clear: both;
+	}
+
+body {
+	background: url('images/black-background.jpg') no-repeat center center fixed;
+	background-size: cover;	
+}
+
+.container {
+	margin: 0 auto;
+	max-width: 1200px;
+}
+
+.flex {
+	display: flex; 
+} 
+
+$blue: #0ef4f4; 
+$black: #212121;

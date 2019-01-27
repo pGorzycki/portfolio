@@ -1,0 +1,46 @@
+.footer {
+	color: white;
+	background: $black;
+	height: 40vh;
+	text-align: center;
+}
+.footer p {
+	margin: 0;
+}
+.footer-header
+ {
+ 	color: $blue;
+ 	font-size: 4em;
+ 	padding: 80px 0 15px 0;
+ }
+ .line2 {
+ 	background: $blue;
+ 	width: 40%;
+ 	margin-left: 30%;
+ 	margin-right: 30%;
+ 	margin-bottom: 50px;
+ }
+
+ .footer-container {
+ 	font-size: 2em;
+ }
+ .facebook-a {
+ 	color: #4267b2;
+ }
+ .facebook {
+ 	text-align: left;
+ }
+ .mail {
+ 	text-align: right;
+ }
+.first {
+	border-right: 1px solid $blue;
+	padding-right: 60px; 
+}
+.third {
+	border-left: 1px solid $blue;
+	padding-left: 60px;
+}
+.footer i {
+	padding-right: 15px;
+}
