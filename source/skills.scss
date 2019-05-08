@@ -7,14 +7,20 @@
 .skills-header {
 	text-align: center;
 	padding: 30px 0;
+	margin: 70px 0;
+	color: $blue;
+	font-size: $header-size;
 }
 .skills {
-	background: $black;
+	background: url('images/black-white.jpg') no-repeat center fixed;;
 	color: white;
 	height: 100vh;
 	overflow: hidden;
 	padding: 50px;
 }
+.skills .row {
+	padding: 50px 0;
+}
 .skills i {
-	font-size: 6em;
+	font-size: 150px;
 }

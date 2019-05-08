@@ -1,7 +1,9 @@
 .aboutme {
 	color: white;
-	height: 65vh;
+	height: 70vh;
 	padding: 20px 0;
+	overflow: hidden;
+	letter-spacing: 1px;
 }
 .aboutme p {
 	font-size: 1.2em;
@@ -26,4 +28,7 @@
 .aboutme-header {
 	text-align: center;
 	padding-top: 10%;
+	color: $blue;
+	font-size: 64px;
 }
+

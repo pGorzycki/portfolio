@@ -8,67 +8,68 @@
 	<link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
 	<link rel="stylesheet" type="text/css" href="styles.css">
 </head>
-<body>
+<body >
 
 <!-- HEADER -->
 	<header>
 		<nav class="header-nav"> 
-			<h1 class="header"> MENU </h1>
+			<ul class="menu-nav">
+				<a href="#skills"><li>Skills</li></a>
+				<a href="#projects"><li>Projects</li></a>
+				<a href="#about"><li>About me & contact</li></a>
+			</ul>
 		 </nav>
 	</header>
 
 <!-- HEADER -->
 <!-- JUMBOTRON -->
 
-	<section class="jumbotron">
-		<section class="jumbotron-section container">
-			<h1 class="jumbotron-header"><span class="p">P</span><span class="i1">i</span><span class="o1">o</span><span class="t">t</span><span class="r1">r </span><span class="g">G</span><span class="o2">ó</span><span class="r2">r</span><span class="z">z</span><span class="y">y</span><span class="c">c</span><span class="k">k</span><span class="i2">i</span><span class="animation1">_</span> </h1>
-			<hr class="line1">
-			<h1 class="jumbotron-header2"> Junior Web Developer </h1>
-			<a href="#skills"> <button class="jumbotron-button"> My portfolio </button></a>
+	<section class="jumbotron" id="particles-js">
+		<section class="jumbotron-section">
+			<div class="jumbotron-meta">
+				<h1 class="jumbotron-header"><span class="jumbotron-span"></span><span class="cursor1">|</span></h1>
+				<hr class="line1">
+				<h1 class="jumbotron-header2"><span class="jumbotron-description"></span><span class="cursor2 cursor-hide">|</span></h1>
+			</div>
+			<div class="bounce-arrow">
+				<p class="bounce"><i class="fas fa-angle-double-down"></i></p>
+			</div>
 		</section>
+
 	</section>
 
 <!-- JUMBOTRON -->
 <!-- SKILLS -->
 
-<section class="skills">
-		<div id="skills" class="container skills-container">
-			<h1 class="skills-header"> My skills: </h1>
-			<div class="row flex">
-				<div class="col col-md-3 col-xs-6">
+<section class="skills" id="skills">
+		<div class="container skills-container">
+			<h1 class="skills-header"> My skills </h1>
+			<div class="row flex animate animate-left">
+				<div class="col col-md-4">
 					<p> <i class="devicon-html5-plain-wordmark colored"></i> </p>
-					<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua </p>
+					<p> Level: Intermediate </p>
 				</div>
-				<div class="col col-md-3 col-xs-6">
+				<div class="col col-md-4">
 					<p> <i class="devicon-css3-plain-wordmark colored"></i> </p>
-					<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua </p>
+					<p> Level: Intermediate </p>
 				</div>
-				<div class="col col-md-3 col-xs-6">
+				<div class="col col-md-4">
 					<p> <i class="devicon-javascript-plain colored"></i> </p>
-					<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua </p>
-				</div>
-				<div class="col col-md-3 col-xs-6">
-					<p> <i class="devicon-jquery-plain-wordmark colored"></i> </p>
-					<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua </p>
+					<p> Level: Intermediate </p>
 				</div>
 			</div>
-			<div class="row flex">
-				<div class="col col-md-3 col-xs-6">
-					<p> <i class="devicon-angularjs-plain colored"></i> </p>
-					<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua </p>
+			<div class="row flex animate animate-right">
+				<div class="col col-md-4">
+					<p> <i class="devicon-react-original-wordmark colored"></i> </p>
+					<p> Level: Beginner </p>
 				</div>
-				<div class="col col-md-3 col-xs-6">
-					<p> <i class="devicon-php-plain colored"></i> </p>
-					<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua </p>
+				<div class="col col-md-4">
+					<p> <i class="devicon-nodejs-plain-wordmark colored"></i> </p>
+					<p> Level: Beginner </p>
 				</div>
-				<div class="col col-md-3 col-xs-6">
-					<p> <i class="devicon-mysql-plain-wordmark colored"></i> </p>
-					<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua </p>
-				</div>
-				<div class="col col-md-3 col-xs-6">
-					<p> <i class="devicon-wordpress-plain-wordmark colored"></i> </p>
-					<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua </p>
+				<div class="col col-md-4">
+					<p> <i class="devicon-mongodb-plain-wordmark colored"></i> </p>
+					<p> Level: Beginner </p>
 				</div>
 			</div>
 		</div>
@@ -77,11 +78,10 @@
 <!-- SKILLS -->
 <!-- PROJECTS -->
 
-	<section class="projects">
-		<h1 class="projects-header text-center"> My Projects </h1>
-		<hr class="projects-line"> 
+	<section class="projects" id="projects">
+		<h1 class="projects-header text-center"> Projects </h1>
 		<div class="myprojects">
-			<div class="project">
+			<div class="project animate animate-left">
 				<h1 class="project-header"> Country search </h1>
 				<a class="a" href="https://pgorzycki.github.io/Wyszukiwarka-kraj-w/" target="blank"><div class="project1">
 					<div class="ninja">
@@ -89,7 +89,7 @@
 					</div>
 				</div></a>
 			</div>
-			<div class="project">
+			<div class="project animate	animate-right">
 				<h1 class="project-header"> Stone, paper, scissors </h1>
 				<a class="a" href="https://pgorzycki.github.io/Rock-Paper-Scissors-Game/" target="blank"><div class="project2">
 					<div class="ninja">
@@ -103,13 +103,13 @@
 <!-- PROJECTS -->
 <!-- ABOUT ME -->
 
-	<section class="aboutme">
+	<section class="aboutme" id="about">
 		<div class="container aboutme-container">
 			
-			<div class="div-img">
+			<div class="div-img animate animate-left">
 				<!--<img class="img-fluid img-aboutme" src="images/pg-photo.jpg">-->
 			</div>
-			<div class="about-me-info">
+			<div class="about-me-info animate animate-right">
 				<h1 class="aboutme-header"> About me </h1>
 				<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.s </p>
 				<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.s </p>
@@ -120,12 +120,11 @@
 <!-- ABOUT ME -->
 <!-- FOOTER -->
 
-	<footer class="footer">
+	<footer class="footer" id="contact">
 		<div class="container">
 			<h1 class="footer-header">
-				Contact me
+				Contact
 			</h1>
-			<hr class="line2">
 			<div class="footer-container">
 				<div class="row">
 					<div class="first col col-md-4">
@@ -135,7 +134,9 @@
 						<p class="phone"> <i class="fas fa-mobile-alt"></i> 885343063 </p>
 					</div>
 					<div class="third col col-md-4">
-						<p class="facebook"><a class="facebook-a" href="https://www.facebook.com/profile.php?id=100013669024437" target="blank"><i class="fab fa-facebook"></i> Facebook </a> </p>
+						<p class="facebook"><a href="https://www.facebook.com/profile.php?id=100013669024437" target="blank"><i class="fab fa-facebook"></i> </a> </p>
+						<p class="linkedin"><a href="https://www.linkedin.com/in/piotr-gorzycki/" target="blank"><i class="fab fa-linkedin"></i></a></p>
+						<p class="github"><a href="https://github.com/pGorzycki" target="blank"><i class="fab fa-github"></i></a></p>
 					</div>
 				</div>
 			</div>
@@ -143,6 +144,8 @@
 	</footer>
 
 <!-- FOOTER -->
-
+<script src="scripts.js"></script>
+<script src="particles.js"></script>
+<script src="app.js"></script>
 </body>
 </html>

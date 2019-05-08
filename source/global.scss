@@ -1,7 +1,13 @@
+$blue: #0ef4f4;
+$black: #212121;
+$header-size: 64px;
 * {
 	box-sizing: border-box;
 	margin: 0;
 	font-family: sans-serif;
+}
+html {
+	scroll-behavior: smooth;
 }
 .row:before, .row:after {
 	content: "";
@@ -10,8 +16,8 @@
 	}
 
 body {
-	background: url('images/black-background.jpg') no-repeat center center fixed;
-	background-size: cover;	
+	background: url('images/black-white.jpg') no-repeat center fixed;
+	background-size: cover;
 }
 
 .container {
@@ -21,7 +27,51 @@ body {
 
 .flex {
 	display: flex; 
-} 
+}
 
-$blue: #0ef4f4; 
-$black: #212121;
+.animate {
+	position: relative;
+
+}
+
+.animate-left {
+	opacity: 0;
+	left: -500px;
+	transition: left 1000ms, opacity 1000ms, transform 700ms;
+}
+.animate-right {
+	opacity: 0;
+	right: -500px;
+	transition: right 1000ms, opacity 1000ms, transform 700ms;
+}
+.animate-left.animate-start{
+	opacity: 1;
+	left: 0;
+}
+.animate-right.animate-start{
+	opacity: 1;
+	right: 0;
+}
+
+#particles-js {
+	background: black;
+	height: 100vh;
+	position: relative;
+	padding: 0;
+}
+.underline {
+	text-decoration: none;
+	color: white;
+	background-image: linear-gradient($blue, $blue);
+	background-size: 0 1px, auto;
+	background-repeat: no-repeat;
+	background-position: center bottom;
+	transition: all .7s ease-out;
+}
+
+.underline-animation {
+	background-size: 40% 1px, auto;
+}
+
+
+

@@ -1,7 +1,7 @@
 .footer {
 	color: white;
 	background: $black;
-	height: 40vh;
+	height: 30vh;
 	text-align: center;
 }
 .footer p {
@@ -11,7 +11,7 @@
  {
  	color: $blue;
  	font-size: 4em;
- 	padding: 80px 0 15px 0;
+ 	padding: 60px 0 15px 0;
  }
  .line2 {
  	background: $blue;
@@ -24,11 +24,14 @@
  .footer-container {
  	font-size: 2em;
  }
- .facebook-a {
+ .facebook a {
  	color: #4267b2;
  }
- .facebook {
- 	text-align: left;
+ .linkedin a {
+	 color: #0077B5;
+ }
+ .github a {
+	 color: white;
  }
  .mail {
  	text-align: right;
@@ -40,6 +43,15 @@
 .third {
 	border-left: 1px solid $blue;
 	padding-left: 60px;
+}
+.third p {
+	display: inline-flex;
+	margin: 0 20px;
+	transition: .5s;
+}
+.third p:hover {
+	transform: scale(1.5);
+	transition: transform 500ms;
 }
 .footer i {
 	padding-right: 15px;

@@ -1,8 +1,10 @@
 .projects {
 	height: 100vh;
-	background: url('images/comp-grey.jpg') center;
+	background: url('images/comp-grey.jpg') center fixed;
 	background-size: cover;
 	background-position: fixed;
+	overflow: hidden;
+	clip-path: polygon(0 0, 100% 10%, 100% 90%, 0% 100%);
 }
 .myprojects {
 	display: flex;
@@ -11,19 +13,13 @@
 }
 .projects-header {
 	color: $blue;
-	font-size: 6em;
-	padding-top: 50px;
+	font-size: 64px;
+	padding-top: 70px;
 	text-shadow: 2px 2px black;
 }
 .project-header {
 	padding: 10px 3px;
 
-}
-.projects-line {
-	background: $blue;
-	max-width: 33%;
-	margin: 5px 33%;
-	padding: 1.5px 0;
 }
 .project {
 	margin-top: 60px;
